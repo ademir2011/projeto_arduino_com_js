@@ -2,15 +2,16 @@
   "name": "jf-project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "jf.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "johnny-five": "^1.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^0.18.0",
-    "johnny-five": "^1.0.0"
-  }
+  "license": "ISC"
 }
